@@ -114,12 +114,13 @@ a:hover,a:focus {
 }
 .intro {
 	display:table;
-	width:100%;
+	width: 100%;
 	height:auto;
 	padding:100px 0 100px 0;
 	text-align:center;
 	color:#fff;
 	background-image:radial-gradient(circle at 50% 50%,rgba(0,0,0,0.46),rgba(0,0,0,0.88)),url('../img/headshot.jpeg');
+	/* background-position: 100%; */
 	-webkit-background-size:cover;
 	-moz-background-size:cover;
 	background-size:cover;
@@ -127,13 +128,15 @@ a:hover,a:focus {
 }
 .intro .intro-body {
 	display:table-cell;
-	vertical-align:middle;
+	vertical-align: top;
+	margin-top: 100px;
 }
+
 .intro .intro-body .brand-heading {
-	font-size:40px;
+	font-size:30px;
 }
 .intro .intro-body .intro-text {
-	font-size:18px;
+	font-size:14px;
 }
 @media(min-width:768px) {
 	.intro {
@@ -141,7 +144,7 @@ a:hover,a:focus {
 		padding:0;
 	}
 	.intro .intro-body .brand-heading {
-		font-size:60px;
+		font-size:40px;
 		margin-top:90px;
 		margin-bottom:20px;
 		border-top:2px solid #fff;
@@ -150,7 +153,7 @@ a:hover,a:focus {
 		padding:10px 0;
 	}
 	.intro .intro-body .intro-text {
-		font-size:20px;
+		font-size:18px;
 			font-weight:300;
 			letter-spacing:3px;
 	}

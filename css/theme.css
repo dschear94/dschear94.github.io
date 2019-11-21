@@ -126,6 +126,34 @@ a:hover,a:focus {
 	background-size:cover;
 	-o-background-size:cover;
 }
+.intro-ac {
+	display:table;
+	width: 100%;
+	height:auto;
+	padding:100px 0 100px 0;
+	text-align:center;
+	color:#fff;
+	background-image:radial-gradient(circle at 50% 50%,rgba(0,0,0,0.46),rgba(0,0,0,0.88)),url('/fs_splash.gif');
+	/* background-position: 100%; */
+	-webkit-background-size:cover;
+	-moz-background-size:cover;
+	background-size:cover;
+	-o-background-size:cover;
+}
+.intro-v {
+	display:table;
+	width: 100%;
+	height:auto;
+	padding:100px 0 100px 0;
+	text-align:center;
+	color:#fff;
+	background-image:radial-gradient(circle at 50% 50%,rgba(0,0,0,0.46),rgba(0,0,0,0.88)),url('/viib.gif');
+	/* background-position: 100%; */
+	-webkit-background-size:cover;
+	-moz-background-size:cover;
+	background-size:cover;
+	-o-background-size:cover;
+}
 .intro .intro-body {
 	display:table-cell;
 	vertical-align: top;
